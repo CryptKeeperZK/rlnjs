@@ -1,7 +1,7 @@
 {
-  "name": "rlnjs",
+  "name": "@cryptkeeperzk/rlnjs",
   "version": "3.2.0",
-  "description": "Client library for generating and using RLN ZK proofs.",
+  "description": "Client library for generating and using RLN ZK proofs, is a forked repo from main Rate-Limiting-Nullifier/rlnjs to make it work with Cryptkeeper Browser Extension using `@cryptkeeperzk/snarkjs` and `@cryptkeeperzk/ffjavascript`",
   "license": "MIT",
   "repository": "https://github.com/Rate-Limiting-Nullifier/rlnjs",
   "homepage": "https://github.com/Rate-Limiting-Nullifier/rlnjs",
@@ -61,6 +61,8 @@
     "README.md"
   ],
   "dependencies": {
+    "@cryptkeeperzk/ffjavascript": "^0.2.59",
+    "@cryptkeeperzk/snarkjs": "^0.7.2",
     "@ethersproject/bytes": "^5.7.0",
     "@ethersproject/keccak256": "^5.7.0",
     "@ethersproject/solidity": "^5.7.0",
@@ -70,9 +72,7 @@
     "@zk-kit/incremental-merkle-tree": "^0.4.3",
     "axios": "^1.5.0",
     "ethers": "^6.4.0",
-    "ffjavascript": "0.2.55",
-    "poseidon-lite": "^0.0.2",
-    "snarkjs": "^0.7.0"
+    "poseidon-lite": "^0.0.2"
   },
   "devDependencies": {
     "@ethersproject/bignumber": "^5.7.0",

@@ -22,10 +22,10 @@
       "src/types",
     ],
     "paths": {
-      "ffjavascript": [
+      "@cryptkeeperzk/ffjavascript": [
         "./src/types/ffjavascript"
       ],
-      "snarkjs": [
+      "@cryptkeeperzk/snarkjs": [
         "./src/types/snarkjs"
       ],
     }

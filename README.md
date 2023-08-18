@@ -1,5 +1,10 @@
+# `@cryptkeeperzk/rlnjs`
+
 # Rate Limiting Nullifier Javascript / Typescript Library
 
+> NOTE: `@cryptkeeperzk/rlnjs` is a forked repo from main Rate-Limiting-Nullifier/rlnjs to make it work with Cryptkeeper Browser Extension using `@cryptkeeperzk/snarkjs` and `@cryptkeeperzk/ffjavascript`.
+
+## Contents
 
 - [Rate Limiting Nullifier Javascript / Typescript Library](#rate-limiting-nullifier-javascript-typescript-library)
   * [Description](#description)
